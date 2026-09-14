@@ -28,5 +28,7 @@
 
 \## Результат
 
-https://screenshot.png
+
+
+!\[Скриншот ответа](screenshot.png)
 
