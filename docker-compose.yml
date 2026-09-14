@@ -1,0 +1,14 @@
+
+
+services:
+  postgres:
+    image: postgres:13-alpine
+    restart: unless-stopped
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_DB=app
+      - POSTGRES_USER=app
+      - POSTGRES_PASSWORD=pass
+    volumes:
+      - ./data:/var/lib/postgresql/data
