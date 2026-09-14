@@ -42,5 +42,4 @@ java -jar ./artifacts/db-api.jar
 
 
 
-!\[Скриншот ответа](screenshot.png)
-
+![Скриншот ответа](https://github.com/dimkor20004-del/DbApiPostgres/raw/main/screenshot.png)
